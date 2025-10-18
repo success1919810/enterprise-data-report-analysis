@@ -282,14 +282,6 @@ GROUP BY log_id;
 
 ---
 
-## 参考资料
-
-- [Spring Cloud Stream官方文档](https://spring.io/projects/spring-cloud-stream)
-- [领域驱动设计（DDD）实践](https://domain-driven-design.org/)
-- [企业集成模式](https://www.enterpriseintegrationpatterns.com/)
-
----
-
 ## 作者
 
 **实习期间深度参与该系统开发**，负责信用证数据归集与上报模块的设计与实现，深入研究了系统架构与设计模式应用。
