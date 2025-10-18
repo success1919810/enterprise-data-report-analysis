@@ -62,14 +62,14 @@
 
 ```mermaid
 sequenceDiagram
-    Client as 定时任务/手动触发
-    Handler as DataReportJobHandler
-    Chain as 责任链
-    MQ as 消息队列
-    Consumer as 消费者
-    Template as 模板方法
-    Strategy as 具体策略实现
-    External as 外部系统
+    participant Client as 定时任务/手动触发
+    participant Handler as DataReportJobHandler
+    participant Chain as 责任链
+    participant MQ as 消息队列
+    participant Consumer as 消费者
+    participant Template as 模板方法
+    participant Strategy as 具体策略实现
+    participant External as 外部系统
 
     Client->>Handler: 触发上报(configId)
     Handler->>Handler: 获取配置&生成batchNo
