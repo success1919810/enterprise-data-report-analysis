@@ -4,19 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c059d687-0c66-4481-82b7-ffb19fef729b" name="Changes" comment="first commit">
+    <list default="true" id="c059d687-0c66-4481-82b7-ffb19fef729b" name="Changes" comment="责任链demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain-patterns-demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chain-patterns-demo/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/stragety-factory-ddd-demo">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -61,9 +81,10 @@
     "Application.ChainPatternsDemoApplication.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/ideaProject/dcp/enterprise-data-report-analysis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,6 +93,7 @@
     "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
@@ -80,6 +102,16 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ideaProject\dcp\enterprise-data-report-analysis\docs" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Application.ChainPatternsDemoApplication">
     <configuration name="ChainPatternsDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -98,6 +130,34 @@
     <configuration name="ChainPatternsDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="chain-patterns-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yocyl.dcp.chainpatternsdemo.ChainPatternsDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StragetyFactoryDddDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="stragety-factory-ddd-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yocyl.dcp.stragetyfactoryddddemo.StragetyFactoryDddDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyFactoryDddDemoDomainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="strategy-factory-ddd-demo-domain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yocyl.dcp.strategyfactoryddddemodomain.StrategyFactoryDddDemoDomainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyPactoryDddDemoInfrastructureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="strategy-factory-ddd-demo-infrastructure" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yocyl.dcp.strategypactoryddddemoinfrastructure.StrategyPactoryDddDemoInfrastructureApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StratetyFactoryDddDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="strategy-factory-ddd-demo-domain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yocyl.dcp.stratetyfactoryddddemo.StratetyFactoryDddDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,7 +183,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760754751265</updated>
-      <workItem from="1760754753874" duration="16864000" />
+      <workItem from="1760754753874" duration="17275000" />
+      <workItem from="1760846623167" duration="10468000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -165,7 +226,39 @@
       <option name="project" value="LOCAL" />
       <updated>1760755943144</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="责任链demo">
+      <option name="closed" value="true" />
+      <created>1760787008772</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760787008772</updated>
+    </task>
+    <task id="LOCAL-00007" summary="责任链demo">
+      <option name="closed" value="true" />
+      <created>1760787103272</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760787103272</updated>
+    </task>
+    <task id="LOCAL-00008" summary="责任链demo">
+      <option name="closed" value="true" />
+      <created>1760787154283</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760787154283</updated>
+    </task>
+    <task id="LOCAL-00009" summary="责任链demo">
+      <option name="closed" value="true" />
+      <created>1760787215834</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760787215834</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +277,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="责任链demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="责任链demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
